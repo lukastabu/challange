@@ -1,0 +1,51 @@
+.side-nav {
+    width: 100px;
+    height: 906px;
+    left: 0px;
+    top: calc(50% - 906px/2);
+    background: #F7F6FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.05s ease-in-out;
+    overflow-wrap: hidden;
+}
+
+.side-nav:hover {
+    width: 200px;
+  }
+
+
+
+.logoblock{
+    position: relative;
+    max-width: fit-content;
+    display: inline-block;
+    margin-top: 44px;
+    margin-left: calc(50% - 34px);
+  }
+
+
+.navbutton {
+    position: relative;
+    top: 100px;
+    left: 20px;
+    line-height: 50px;
+    display: flex;
+}
+
+.nav-img {
+    height: 25px;
+    margin: 16px 32px;
+}
+
+.nav-title {
+    color: grey;
+    display: flex;
+    text-decoration: none;
+    display: none;
+}
+.side-nav:hover .nav-title {
+    display: inline-flex;
+}
+
+
+.navbuttonhover:background: #FFFFFF;
