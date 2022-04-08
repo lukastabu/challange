@@ -1,12 +1,13 @@
 .side-nav {
     width: 100px;
-    height: 906px;
+    height: 100vh;
     left: 0px;
     top: calc(50% - 906px/2);
     background: #F7F6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition: all 0.05s ease-in-out;
-    overflow-wrap: hidden;
+    transition: all 0.2s ease-in-out;
+    /* overflow-wrap: hidden; */
+    overflow: visible;
 }
 
 .side-nav:hover {
@@ -30,6 +31,7 @@
     left: 20px;
     line-height: 50px;
     display: flex;
+    width: 300px;
 }
 
 .nav-img {
@@ -42,6 +44,7 @@
     display: flex;
     text-decoration: none;
     display: none;
+    width: 300px;
 }
 .side-nav:hover .nav-title {
     display: inline-flex;
@@ -49,3 +52,18 @@
 
 
 .navbuttonhover:background: #FFFFFF;
+
+footer {
+    color: red;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0px;
+    width: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /*color: var(--secondary-color);*/
+    font-size: 11px;
+    /*border-top: 1px solid var(--secondary-color);*/
+    padding: 11px 0;
+  }
