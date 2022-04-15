@@ -1,8 +1,8 @@
 .side-nav {
+    position: fixed;
     width: 100px;
-    height: 100vh;
-    left: 0px;
-    top: calc(50% - 906px/2);
+    height: 100%;
+    top: calc(50% - 100%/2);
     background: #F7F6FF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: all 0.2s ease-in-out;
@@ -31,7 +31,7 @@
     left: 20px;
     line-height: 50px;
     display: flex;
-    width: 300px;
+    width: 180px;
 }
 
 .nav-img {
@@ -42,7 +42,6 @@
 .nav-title {
     color: grey;
     display: flex;
-    text-decoration: none;
     display: none;
     width: 300px;
 }
@@ -51,19 +50,86 @@
 }
 
 
-.navbuttonhover:background: #FFFFFF;
+.navbutton:hover {
+    background: #FFFFFF;
+}
+
+
+.container,
+.container-fluid {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 180px;
+}
+
+/*
+@media (min-width: 575px) {
+    .container > .row {
+        width: 540px;
+        margin-left: calc(50% - 270px);
+        margin-right: calc(50% - 270px);
+    }
+
+@media (min-width: 767px) {
+    .container > .row {
+        width: 720px;
+        margin-left: calc(50% - 360px);
+        margin-right: calc(50% - 360px);
+    }
+*/
+.clock {
+    width: fit-content;
+    padding: 20px 30px;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    display: inline-block;
+}
+
+.greeting {
+    width: 300px;
+    height: 80px;
+    float: left;
+    margin: 30px 30px 0;
+}
+
+.main-section {
+    height: 400px;
+    margin-top: 0 calc(10px - 50%);
+    background-image: url(../assets/workplace-results-professional-report-accounting-during\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.row > .quote {
+    bottom: 10%;
+    margin-right: 30px;
+    display: flex;
+    flex: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote {
+    height: 120px;
+    padding: 10px 100px;
+    border-radius: 25px;
+    border: solid 3px #02577A;
+}
+
+
 
 footer {
-    color: red;
-    background-color: aqua;
+    display: block;
     position: absolute;
     bottom: 0px;
-    width: 36px;
+    width: 346px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     /*color: var(--secondary-color);*/
     font-size: 11px;
-    /*border-top: 1px solid var(--secondary-color);*/
+    border-top: 1px solid gray;
     padding: 11px 0;
   }
