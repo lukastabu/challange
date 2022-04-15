@@ -13,4 +13,4 @@ This is a project to improve front-end skills by building various components and
 
 ## Launch
 
-<a href="#">Live project</a>
+<a href="https://lukastabu.github.io/challange/">Live project</a>
