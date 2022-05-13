@@ -58,7 +58,7 @@
 .container,
 .container-fluid {
     display: flex;
-    width: 90%;
+    width: calc(100% - 180px);
     justify-content: space-between;
     margin-left: 180px;
 }
